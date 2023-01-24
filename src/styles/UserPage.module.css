@@ -1,0 +1,28 @@
+.main {
+    min-height: 100vh;
+    background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+    
+  }
+
+.fileinput{
+  border: 2px dotted white;
+}
+.imagecontainer{
+  margin-left: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+  }
+  .image {
+    width: 90%;
+    height: auto;
+  }
+  .nav{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+  .button {
+    background-color: white;
+  }
